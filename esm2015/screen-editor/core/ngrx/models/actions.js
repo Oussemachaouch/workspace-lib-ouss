@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { createAction, props } from '@ngrx/store';
+/** @type {?} */
+export const LOAD_MODELS = createAction('[SE Models] Load Models');
+/** @type {?} */
+export const LOAD_MODELS_SUCCESSFULLY = createAction('[SE Models] Load Models Successfully', props());
+/** @type {?} */
+export const LOAD_MODELS_FAILED = createAction('[SE Models] Load Models Failed', props());
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWN0aW9ucy5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3dvcmtzcGFjZS1saWItb3Vzcy8iLCJzb3VyY2VzIjpbInNjcmVlbi1lZGl0b3IvY29yZS9uZ3J4L21vZGVscy9hY3Rpb25zLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxPQUFPLEVBQUUsWUFBWSxFQUFFLEtBQUssRUFBRSxNQUFNLGFBQWEsQ0FBQzs7QUFHbEQsTUFBTSxPQUFPLFdBQVcsR0FBRyxZQUFZLENBQUMseUJBQXlCLENBQUM7O0FBQ2xFLE1BQU0sT0FBTyx3QkFBd0IsR0FBRyxZQUFZLENBQ2xELHNDQUFzQyxFQUN0QyxLQUFLLEVBQTBCLENBQ2hDOztBQUNELE1BQU0sT0FBTyxrQkFBa0IsR0FBRyxZQUFZLENBQzVDLGdDQUFnQyxFQUNoQyxLQUFLLEVBQWdCLENBQ3RCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlQWN0aW9uLCBwcm9wcyB9IGZyb20gJ0BuZ3J4L3N0b3JlJztcbmltcG9ydCB7IEVudGl0eSB9IGZyb20gJ0BwYWxteXJhLWRldmtpdC9jb3JlLWFwaS9zaGFyZWQnO1xuXG5leHBvcnQgY29uc3QgTE9BRF9NT0RFTFMgPSBjcmVhdGVBY3Rpb24oJ1tTRSBNb2RlbHNdIExvYWQgTW9kZWxzJyk7XG5leHBvcnQgY29uc3QgTE9BRF9NT0RFTFNfU1VDQ0VTU0ZVTExZID0gY3JlYXRlQWN0aW9uKFxuICAnW1NFIE1vZGVsc10gTG9hZCBNb2RlbHMgU3VjY2Vzc2Z1bGx5JyxcbiAgcHJvcHM8eyBlbnRpdGllczogRW50aXR5W10gfT4oKVxuKTtcbmV4cG9ydCBjb25zdCBMT0FEX01PREVMU19GQUlMRUQgPSBjcmVhdGVBY3Rpb24oXG4gICdbU0UgTW9kZWxzXSBMb2FkIE1vZGVscyBGYWlsZWQnLFxuICBwcm9wczx7IGVycjogYW55IH0+KClcbik7XG4iXX0=

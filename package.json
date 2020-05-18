@@ -1,0 +1,21 @@
+{
+  "name": "workspace-lib-ouss",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.1.3",
+    "@angular/core": "^8.1.3"
+  },
+  "main": "bundles/workspace-lib-ouss.umd.js",
+  "module": "fesm5/workspace-lib-ouss.js",
+  "es2015": "fesm2015/workspace-lib-ouss.js",
+  "esm5": "esm5/workspace-lib-ouss.js",
+  "esm2015": "esm2015/workspace-lib-ouss.js",
+  "fesm5": "fesm5/workspace-lib-ouss.js",
+  "fesm2015": "fesm2015/workspace-lib-ouss.js",
+  "typings": "workspace-lib-ouss.d.ts",
+  "metadata": "workspace-lib-ouss.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

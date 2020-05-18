@@ -1,0 +1,35 @@
+import { OnInit, OnDestroy } from '@angular/core';
+import { Observable } from 'rxjs';
+import { WorkspaceClientApi } from '@palmyra-devkit/core-api/client';
+import { UnloadModuleService, LayoutService } from '../../core/services';
+import { SwaggerServicesStore } from '../../core/store';
+import { Device } from '../../models/device';
+import { UiComponent } from '../../models/widgets-library/ui-component';
+import { WidgetsLibraryModel } from '../../models/widgets-library/model';
+import { Navigator } from '../../components/explorer/navigator/navigator';
+export declare class ScreenEditorComponent implements OnInit, OnDestroy {
+    private unloadModuleService;
+    private layoutService;
+    private workspaceApi;
+    private swaggerServicesStore;
+    private navigator;
+    components: UiComponent[];
+    componentLibrary: WidgetsLibraryModel;
+    selectedDevice: Device;
+    landscapeMode: boolean;
+    collapseComponents: boolean;
+    collapseProperties: boolean;
+    componentLibraries$: Observable<WidgetsLibraryModel[]>;
+    displayDeviceSwitcher$: Observable<Boolean>;
+    displayUseCasePolicy$: Observable<Boolean>;
+    propertiesTitle$: Observable<any>;
+    private swaggerServices$;
+    constructor(unloadModuleService: UnloadModuleService, layoutService: LayoutService, workspaceApi: WorkspaceClientApi, swaggerServicesStore: SwaggerServicesStore, navigator: Navigator);
+    ngOnInit(): void;
+    onCollapseComponents(): void;
+    onCollapseProperties(): void;
+    selectDevice(device: any): void;
+    changeLayout(landscapeMode: any): void;
+    ngOnDestroy(): void;
+    backToPreview(): void;
+}

@@ -1,0 +1,15 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { of } from 'rxjs';
+import { ROLES } from '../mocked-response/mock';
+export class SecurityClientApiImpl {
+    /**
+     * @return {?}
+     */
+    getRoles() {
+        return of(ROLES);
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2VjdXJpdHktY2xpZW50LWFwaS1pbXBsLmpzIiwic291cmNlUm9vdCI6Im5nOi8vd29ya3NwYWNlLWxpYi1vdXNzLyIsInNvdXJjZXMiOlsiZmFrZS1iYWNrZW5kL21vY2tlZC1hcGktaW1wbC9zZWN1cml0eS1jbGllbnQtYXBpLWltcGwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUNBLE9BQU8sRUFBYyxFQUFFLEVBQUUsTUFBTSxNQUFNLENBQUM7QUFJdEMsT0FBTyxFQUFFLEtBQUssRUFBRSxNQUFNLHlCQUF5QixDQUFDO0FBRWhELE1BQU0sT0FBTyxxQkFBcUI7Ozs7SUFDaEMsUUFBUTtRQUNOLE9BQU8sRUFBRSxDQUFDLEtBQUssQ0FBQyxDQUFDO0lBQ25CLENBQUM7Q0FDRiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFNlY3VyaXR5Q2xpZW50QXBpIH0gZnJvbSAnQHBhbG15cmEtZGV2a2l0L2NvcmUtYXBpL2NsaWVudCc7XG5pbXBvcnQgeyBPYnNlcnZhYmxlLCBvZiB9IGZyb20gJ3J4anMnO1xuXG5pbXBvcnQgeyBSb2xlIH0gZnJvbSAnQHBhbG15cmEtZGV2a2l0L2NvcmUtYXBpL3NoYXJlZCc7XG5cbmltcG9ydCB7IFJPTEVTIH0gZnJvbSAnLi4vbW9ja2VkLXJlc3BvbnNlL21vY2snO1xuXG5leHBvcnQgY2xhc3MgU2VjdXJpdHlDbGllbnRBcGlJbXBsIGltcGxlbWVudHMgU2VjdXJpdHlDbGllbnRBcGkge1xuICBnZXRSb2xlcygpOiBPYnNlcnZhYmxlPFJvbGVbXT4ge1xuICAgIHJldHVybiBvZihST0xFUyk7XG4gIH1cbn1cbiJdfQ==

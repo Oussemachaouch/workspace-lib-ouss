@@ -1,0 +1,7 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+export { WidgetsStoreComponent } from './widgets-store.component';
+export { WidgetComponent } from './widget/widget.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly93b3Jrc3BhY2UtbGliLW91c3MvIiwic291cmNlcyI6WyJzY3JlZW4tZWRpdG9yL2NvbXBvbmVudHMvd2lkZ2V0cy1zdG9yZS9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsc0NBQWMsMkJBQTJCLENBQUM7QUFDMUMsZ0NBQWMsMkJBQTJCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tICcuL3dpZGdldHMtc3RvcmUuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vd2lkZ2V0L3dpZGdldC5jb21wb25lbnQnO1xuIl19
